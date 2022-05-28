@@ -11,6 +11,26 @@
 5. Open the powershell Terminal in Visual studio and run the command ``` npm install ``` in folder to install the dependencies
 6. Run the command ```node <filename>.js``` in the folder with the usage examples
 
+## Usage
+1. Making a connection database.js
+
+```
+var knex = require('knex')({
+    client:'mysql2',
+    connection:{
+        host : 'localhost',
+        user : 'root',
+        password : '',
+        database : 'knexjs'
+    }
+})
+module.exports = knex;
+```
+
+
+
+
+
 ## Contributing
 
 1. [Fork the repository](https://github.com/JrSchmidtt/knex-js-usage/fork)!
@@ -24,3 +44,5 @@
 
 **Knex JS Usage** © [JrSchmidt](https://github.com/JrSchmidtt).  
 Authored and maintained by Schmidt#9639.
+
+
