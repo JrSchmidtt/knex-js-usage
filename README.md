@@ -4,7 +4,7 @@
 * Some operations to demonstrate the usage of KnexJs.
 
 ## Install and Run
-1. Clone the repository : `git clone https://github.com/JrSchmidtt/csv-to-html.gi`
+1. Clone the repository : `git clone https://github.com/JrSchmidtt/knex-js-usage`
 2. Install [node.js](https://nodejs.org/en/) to run 
 3. Install [Visual Studio Code](https://code.visualstudio.com/) to edit 
 4. Install [HeidiSQL](https://www.heidisql.com) and import database.sql
