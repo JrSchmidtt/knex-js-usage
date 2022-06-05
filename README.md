@@ -1,7 +1,7 @@
 ## **Knex JS Usage**
 
 <div align="center">
-    <a href=""><img src="http://knexjs.org/knex-logo.png" alt="" /></a>
+    <a href="#"><img src="http://knexjs.org/knex-logo.png" alt="" /></a>
 </div><br>
 
 * Code developed for academic purposes.
