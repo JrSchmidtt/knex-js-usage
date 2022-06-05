@@ -14,8 +14,8 @@
 ## Usage
 1. Making a connection database.js
 
-```
-var knex = require('knex')({
+```javascript
+var database = require('knex')({
     client:'mysql2',
     connection:{
         host : 'localhost',
@@ -24,11 +24,11 @@ var knex = require('knex')({
         database : 'knexjs'
     }
 })
-module.exports = knex;
+module.exports = database;
 ```
 
 2. Insert ```node insert.js```
-```
+```javascript
 var database = require('./database');
 
 var data = [
@@ -54,7 +54,7 @@ database.insert(data).into('product').then(data => {
 ```
 
 3. Select e nested queries ```node nested.js```
-```
+```javascript
 var database = require('./database');
 
 var data = [
