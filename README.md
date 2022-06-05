@@ -1,5 +1,9 @@
 ## **Knex JS Usage**
 
+<div align="center">
+    <a href=""><img src="http://knexjs.org/knex-logo.png" alt="" /></a>
+</div><br>
+
 * Code developed for academic purposes.
 * Some operations to demonstrate the usage of KnexJs.
 
